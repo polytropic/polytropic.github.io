@@ -11,8 +11,8 @@ function config($key = '')
         'name' => 'Denise Bigelow',
         'nav_menu' => [
             '' => 'home',
-            'about-us' => 'about me',
-            'products' => 'resume',
+            'about' => 'about me',
+            'resume' => 'resume',
             'contact' => 'contact',
         ],
         'template_path' => 'template',
