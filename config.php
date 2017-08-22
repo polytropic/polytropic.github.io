@@ -8,17 +8,17 @@
 function config($key = '')
 {
     $config = [
-        'name' => 'Simple PHP Website',
+        'name' => 'Denise Bigelow',
         'nav_menu' => [
-            '' => 'Home',
-            'about-us' => 'About Us',
-            'products' => 'Products',
-            'contact' => 'Contact',
+            '' => 'home',
+            'about-us' => 'about me',
+            'products' => 'resume',
+            'contact' => 'contact',
         ],
         'template_path' => 'template',
         'content_path' => 'content',
         'pretty_uri' => true,
-        'version' => 'v2.0',
+        'version' => 'v1.0',
     ];
 
     return isset($config[$key]) ? $config[$key] : null;
